@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(214, 17%, 92%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-style: normal;
+}
+
+.testimonials__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color: hsl(214, 17%, 92%);
+}
+
+.testimonial-card {
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.testimonial-card__section-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.testimonial-card__image {
+    width: 30px;
+    height: auto;
+    border-radius:100%;
+}
+
+.testimonial-card--highlighted {
+    background-color: hsl(263, 55%, 52%);
+    color: hsl(0, 0%, 100%);
+}
+
+.testimonial-card--designo {
+    background-color: hsl(224, 10%, 45%);
+    color: hsl(0, 0%, 100%);
+}
+
+.testimonial-card--natureway {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(224, 10%, 45%);
+}
+
+.testimonial-card--welldeserved {
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 100%);
+}
+
+.testimonial-card--featured {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(224, 10%, 45%);
+}
